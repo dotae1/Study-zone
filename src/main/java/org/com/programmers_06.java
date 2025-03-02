@@ -1,13 +1,14 @@
 package org.com;
 
-public class programmer_06 {
+public class programmers_06 {
     public static void main(String[] args) {
-        int num=626331;
+        long num = 626331;
         int count = 0; // 반복 횟수
 
         while (num != 1) { // num이 1이 될 때까지 반복
             if (count >= 500) {
-                count = -1;// 500번 이상 반복하면 -1반환
+                System.out.println(-1);
+                return;
             }
             if (num % 2 == 0) { // 짝수라면 2로 나눔
                 num /= 2;
