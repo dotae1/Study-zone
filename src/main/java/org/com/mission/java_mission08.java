@@ -8,8 +8,8 @@ public class java_mission08 {
         double sum = 0;  // 정수형에서 실수형으로 변경
 
         // 배열 평균 계산
-        for (int i = 0; i < num.length; i++) {
-            sum += num[i];
+        for (int k : num) {
+            sum += k;
         }
         double average = sum / num.length;  // 실수 나눗셈으로 평균 계산
         System.out.println("배열의 평균은 : " + average);
@@ -26,8 +26,8 @@ public class java_mission08 {
 
         // 변경된 배열 출력
         System.out.print("변경된 배열: ");
-        for (int i = 0; i < num.length; i++) {
-            System.out.print(num[i] + " ");
+        for (int j : num) {
+            System.out.print(j + " ");
         }
     }
 }
