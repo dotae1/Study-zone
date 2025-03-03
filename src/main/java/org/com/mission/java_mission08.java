@@ -1,5 +1,5 @@
 package org.com.mission;
-
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class java_mission08 {
@@ -21,6 +21,8 @@ public class java_mission08 {
             num[i] = scr.nextInt();
         }
         scr.close();  // Scanner 닫기
+
+        Arrays.sort(num); //배열 오름차순 정렬
 
         // 변경된 배열 출력
         System.out.print("변경된 배열: ");
