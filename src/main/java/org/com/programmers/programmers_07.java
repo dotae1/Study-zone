@@ -1,4 +1,4 @@
-    package org.com;
+    package org.com.programmers;
 
     public class programmers_07 {
         public static void main(String[] args) {
