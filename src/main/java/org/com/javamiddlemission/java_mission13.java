@@ -1,4 +1,9 @@
-package org.com.mission;
+package org.com.javamiddlemission;
+
+import org.com.mission.Circle;
+import org.com.mission.Squ;
+import org.com.javamiddlemission.square1.Square;
+import org.com.mission.Triangle;
 
 public class java_mission13 {
     public static void main(String[] args) {

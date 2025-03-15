@@ -1,4 +1,4 @@
-package org.com.squareprogram;
+package org.com.javamiddlemission.squareprogram;
 
 public abstract class Shape {
     protected String name;

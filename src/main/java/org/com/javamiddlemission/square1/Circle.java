@@ -1,10 +1,9 @@
-package org.com.square;
+package org.com.javamiddlemission.square1;
 
-public class Circle extends Type {
+class Circle implements Square {
     private double radius;
 
-    public Circle(double radius){
-        super("원");
+    public Circle(double radius) {
         this.radius = radius;
     }
 

@@ -1,4 +1,4 @@
-package org.com.squareprogram;
+package org.com.javamiddlemission.squareprogram;
 
 public class Application {
     public static void main(String[] args) {

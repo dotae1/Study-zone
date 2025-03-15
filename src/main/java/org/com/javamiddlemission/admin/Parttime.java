@@ -1,4 +1,4 @@
-package org.com.admin;
+package org.com.javamiddlemission.admin;
 
 public class Parttime {
     private int money;

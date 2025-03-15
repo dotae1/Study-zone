@@ -1,10 +1,9 @@
-package org.com.square;
+package org.com.javamiddlemission.square1;
 
-public class Square extends Type {
+class Squ implements Square {
     private double width, height;
 
-    public Square(double width, double height){
-        super("시긱형");
+    public Squ(double width, double height) {
         this.width = width;
         this.height = height;
     }
@@ -14,3 +13,4 @@ public class Square extends Type {
         return width * height;
     }
 }
+

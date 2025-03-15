@@ -1,16 +1,15 @@
-package org.com.squareprogram;
+package org.com.javamiddlemission.square1;
 
-class Triangle extends Shape implements AreaCalculable {
+class Triangle implements Square {
     private double base, height;
 
     public Triangle(double base, double height) {
-        super("삼각형");
         this.base = base;
         this.height = height;
     }
 
     @Override
     public double calculateArea() {
-        return 0.5 * base * height; // 삼각형 면적: (밑변 × 높이) / 2
+        return 0.5 * base * height;
     }
 }

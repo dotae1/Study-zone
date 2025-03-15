@@ -1,4 +1,4 @@
-package org.com.admin;
+package org.com.javamiddlemission.admin;
 
 public class Application {
     public static void main(String[] args) {

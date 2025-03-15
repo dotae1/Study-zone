@@ -1,12 +1,12 @@
-package org.com.mission;
+package org.com.javamiddlemission.squareprogram;
 
-class Circle implements Square {
+public class Circle extends Shape implements AreaCalculable {
     private double radius;
 
     public Circle(double radius) {
+        super("원");
         this.radius = radius;
     }
-
     @Override
     public double calculateArea() {
         return Math.PI * radius * radius;

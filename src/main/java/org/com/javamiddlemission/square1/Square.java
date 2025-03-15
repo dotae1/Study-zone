@@ -1,4 +1,4 @@
-package org.com.mission;
+package org.com.javamiddlemission.square1;
 
 public interface Square {
 

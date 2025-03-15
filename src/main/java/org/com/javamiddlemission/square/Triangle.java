@@ -1,4 +1,4 @@
-package org.com.square;
+package org.com.javamiddlemission.square;
 
 public class Triangle extends Type{
 

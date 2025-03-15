@@ -1,4 +1,4 @@
-package org.com.squareprogram;
+package org.com.javamiddlemission.squareprogram;
 
 class Square extends Shape implements AreaCalculable {
     private double width, height;

@@ -1,4 +1,4 @@
-package org.com.mission;
+package org.com.javamiddlemission;
 import java.util.Scanner;
 
 public class java_mission11 {

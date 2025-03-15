@@ -1,4 +1,4 @@
-package org.com.calculator;
+package org.com.javamiddlemission.calculator;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class Application {

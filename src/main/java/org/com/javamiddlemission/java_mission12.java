@@ -1,4 +1,6 @@
-package org.com.mission;
+package org.com.javamiddlemission;
+
+import org.com.javamiddlemission.square1.Calculator;
 
 import java.util.Scanner;
 
@@ -13,7 +15,7 @@ public class java_mission12 {
         System.out.print("연산하고자 하는 문자를 입력해주세요 : ");
         String str = scr.next();
 
-        Calculator.Sum sum = (x,y)-> a+b;
+        Calculator.Sum sum = (x, y)-> a+b;
         Calculator.Min min = (x , y) -> a-b;
         Calculator.Mul mul = (x , y) -> a*b;
         Calculator.Div div = (x , y) -> a/b;
