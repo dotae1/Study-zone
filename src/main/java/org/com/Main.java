@@ -4,10 +4,11 @@ package org.com;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-       int i=3;
-       int a = 5;
-        System.out.println(i/2);
-        System.out.println(a/2);
+       String str = "abcd";
+       StringBuffer sb = new StringBuffer(str);
+       String re = sb.reverse().toString();
+       char[] ch = str.toCharArray();
+
 
 
     }
