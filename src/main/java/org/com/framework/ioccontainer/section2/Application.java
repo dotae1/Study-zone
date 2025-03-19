@@ -1,6 +1,6 @@
-package org.com.framework.section2;
+package org.com.framework.ioccontainer.section2;
 
-import org.com.framework.common.DotaeDTO;
+import org.com.framework.ioccontainer.common.DotaeDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

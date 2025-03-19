@@ -1,6 +1,6 @@
-package org.com.framework.section1;
+package org.com.framework.ioccontainer.section1;
 
-import org.com.framework.common.DotaeDTO;
+import org.com.framework.ioccontainer.common.DotaeDTO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
@@ -8,7 +8,7 @@ public class Application {
     public static void main(String[] args) {
         //GenericXmlApplicationContext 클래스를 사용해 ApplicationContext를 생성하고 XML 설정 메타 정보를 인자로 전달
         ApplicationContext context
-                = new GenericXmlApplicationContext("section01/xmlconfig/spring-context.xml");
+                = new GenericXmlApplicationContext("iocconation01/section01/xmlconfig/spring-context.xml");
 
         //1.bean의 id를 이용해서 bean을 가져오는 방법
         DotaeDTO dotae = (DotaeDTO) context.getBean("dotae");

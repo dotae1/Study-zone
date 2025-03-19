@@ -1,6 +1,6 @@
-package org.com.framework.section2;
+package org.com.framework.ioccontainer.section2;
 
-import org.com.framework.common.DotaeDTO;
+import org.com.framework.ioccontainer.common.DotaeDTO;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 // @Configuration 어노테이션은 해당 클래스가 빈을 생성하는 클래스 임을 표기한다.

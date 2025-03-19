@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- Dotae DTO 등록 -->
-    <bean id = "dotae" class = "org.com.framework.common.DotaeDTO">
+    <bean id = "dotae" class = "org.com.framework.ioccontainer.common.DotaeDTO">
         <!-- int 타입 첫번째 피라미터에 값 전달 -->
         <constructor-arg index="0" value="26"/>
 

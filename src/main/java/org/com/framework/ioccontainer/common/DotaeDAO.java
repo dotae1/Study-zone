@@ -1,4 +1,4 @@
-package org.com.framework.common;
+package org.com.framework.ioccontainer.common;
 import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
