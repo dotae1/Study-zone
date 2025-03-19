@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Dotae DTO 등록 -->
+    <bean id = "dotae" class = "org.com.framework.common.DotaeDTO">
+        <!-- int 타입 첫번째 피라미터에 값 전달 -->
+        <constructor-arg index="0" value="26"/>
+
+        <!--String 타입 값 id 피라미터에 값 전달-->
+        <constructor-arg index="1" value = "student"/>
+
+        <constructor-arg index = "2"><value>최다빈</value></constructor-arg>
+
+    </bean>
+
+</beans>
